@@ -1,34 +1,24 @@
-body{
-    margin: 0 auto;
-    padding: 0;
-}
-.container{
-    width: 100%;
-}
-.header {
-    height: 20%;
-    text-align: center;
-    font-size: xx-large;
-    background-color:#78eae0;
+body {
+  margin: 0 auto;
 }
 .flex-container {
-    display: flex;
-    align-items: center;
-    background-color: #3A3633
+  display: flex;
+  align-items: center;
+  background-color: #3a3633;
 }
 p {
-    color: #BDB6B1;
+  color: #bdb6b1;
 }
-h2{
-    color: #BDB6B1;
+h2 {
+  color: #bdb6b1;
 }
 
 @media only screen and (max-width: 576px) {
-    body {
-      background-color: lightblue;
-      width: 100%;
-    }
-    .flex-container{
-        flex-direction: column;
-    }
+  body {
+    background-color: lightblue;
+    width: 100%;
   }
+  .flex-container {
+    flex-direction: column;
+  }
+}
