@@ -1,7 +1,7 @@
 body {
-  margin: 0 auto;
-  height: 100vh;
+  /* margin: 0 auto; */
   background-color: #fbe5c8;
+  width: 100vw;
 }
 .navbar {
   padding: 15px;
@@ -28,8 +28,18 @@ a {
 .flex-container {
   display: flex;
   text-align: center;
-  padding: 5%;
+  padding: 3%;
   background-color: #3a3633;
+  justify-content: center;
+}
+.flex-box-1 {
+  margin: 1em;
+}
+.flex-box-2 {
+  margin: 1em;
+}
+.flex-box-3 {
+  margin: 1em;
 }
 .colorbox-1 {
   height: 20px;
@@ -62,11 +72,22 @@ h2 {
   color: #bdb6b1;
 }
 .art-gallery {
+  padding: 5%;
   /* display: grid; */
 }
 img {
+  margin: auto;
   height: 300px;
   width: 300px;
+}
+.monet-bio {
+  color: black;
+}
+.vangogh-bio {
+  color: black;
+}
+.matisse-bio {
+  color: black;
 }
 
 @media only screen and (max-width: 576px) {
@@ -79,5 +100,8 @@ img {
   }
   .main-title {
     margin-top: 50px;
+  }
+  img {
+    margin: auto;
   }
 }
