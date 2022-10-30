@@ -23,7 +23,7 @@ a {
 .main-title {
   text-align: center;
   padding: 5%;
-  background-color: #b6e5d8;
+  background-image: url(img/water-lilies-agapanthus-monet.jpg);
 }
 .flex-container {
   display: flex;
@@ -60,6 +60,13 @@ p {
 }
 h2 {
   color: #bdb6b1;
+}
+.art-gallery {
+  /* display: grid; */
+}
+img {
+  height: 300px;
+  width: 300px;
 }
 
 @media only screen and (max-width: 576px) {
